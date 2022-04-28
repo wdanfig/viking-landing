@@ -3,7 +3,7 @@
     flex-direction:column;
     background-color: #E5E5E5;
     height: 500px;
-    width: 1000px;
+    width: 100%;
     justify-content: flex-start;
 
   
@@ -11,7 +11,7 @@
 
 .item0{
     display: flex;
-    width:1000px;
+    width:100%;
     height:37px ;
     background-color: #E5E5E5;
     justify-content: space-between;
@@ -19,14 +19,14 @@
 }
 
 .item1{
-    width: 85px;
+    width: 8%;
     height: 37px;
     background-color: chocolate;
-    margin: 0px 0px 0px 135px;
+    margin: 0px 0px 0px 145px;
 }
 
 .item2{
-    width: 54px;
+    width: 5%;
     height: 37px;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 0px 55px 0px 0px;
@@ -34,7 +34,7 @@
 
 .item3{
     display: flex;
-    width: 1000px;
+    width: 100%;
     height: 400px;
     background-color:#E5E5E5;
     justify-content:space-between;
@@ -54,14 +54,14 @@
 }
 
 .item5{
-    width:381px;
+    width:80%;
     height:205px;
     background-color: rgba(0, 0, 0, 0.2); 
      
 }
 
 .item6{
-    width:381px;
+    width:80%;
     height:64px;
     background-color: rgba(0, 0, 0, 0.2); 
      
@@ -70,7 +70,7 @@
 .item7{
     display: flex;
     flex-flow: row;
-    width:381px;
+    width:80%;
     height:64px;
     background-color:#E5E5E5; 
     
@@ -98,3 +98,68 @@
     background-color:rgba(0, 0, 0, 0.2); 
 }
 
+.container2{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(51, 221, 65);
+    height: 500px;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 2px;
+  
+}
+
+.contentUp{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:220px;
+    background-color: rgba(0, 0, 0, 0.2);    
+    align-items: center; 
+}
+
+.works{
+    width:18%;
+    height:80px;
+    background-color:blue;   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align-last: center;
+}
+
+.make{
+    width:80%;
+    height:130px;
+    background-color:rgb(182, 8, 8);   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align-last:center;
+    font-size: x-large;
+}
+
+.galery{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:280px;
+    background-color: rgba(41, 19, 100, 0.2);    
+    justify-content: space-between;
+}
+
+.prev{
+    width: 10%;
+    height:45px;
+    background-color: crimson;
+    margin: 18px;
+}
+
+.image{
+    width: 55% ;
+    height: 247px;
+    background-color: crimson;
+}
+
+.next{
+    width: 10% ;
+    height: 45px;
+    background-color: crimson;
+    margin: 18px;
+}
